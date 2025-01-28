@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelle - Pizzería Artesanal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-item {
+            margin: 20px;
+            padding: 15px;
+            background: white;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Marcelle - Pizzería Artesanal</header>
+    <div class="container">
+        <h2>Bienvenidos a Marcelle</h2>
+        <p>Descubre nuestras pizzas artesanales y sabores únicos.</p>
+        
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/250" alt="Lasaña">
+            <h3>Lasaña</h3>
+            <p>Pollo o Carne, con queso mozzarella y salsa especial.</p>
+            <p><strong>$6.00</strong></p>
+        </div>
+        
+        <div class="menu-item">
+            <img src="https://via.placeholder.com/250" alt="Hot Dog">
+            <h3>Hot Dog Especial</h3>
+            <p>Salchicha, salsa, papas y queso.</p>
+            <p><strong>Desde $2.00</strong></p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Marcelle - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
